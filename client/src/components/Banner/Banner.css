@@ -1,0 +1,29 @@
+.banner{
+    height: calc(100vh - 60px - 60px);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_text{
+    width: 500px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffa500;
+    line-height: 1.3;
+}
+.banner_text h1{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.banner_text a{
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin-top: 5px;
+}

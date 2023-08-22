@@ -1,0 +1,60 @@
+.header .container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+.top_header{
+    background-color: orange;
+    color: floralwhite;
+}
+.top_header .social_media_icons{
+    display: flex;
+}
+.top_header .social_media_icons a{
+    margin-right: 14px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: floralwhite;
+    text-decoration: none;
+}
+.top_header .container .profile{
+    display: flex;
+}
+.top_header .container .profile a{
+    color: floralwhite;
+    text-decoration: none;
+}
+.top_header .container .profile a:nth-child(2){
+    padding-left: 10px;
+}
+.top_header .container .profile a:nth-child(1){
+    border-right: 1px solid floralwhite;
+    padding-right: 10px;
+}
+
+/* bottom_header */
+.bottom_header{
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);
+}
+.bottom_header a,
+.bottom_header{
+    color: #000;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: .95em;
+}
+.bottom_header nav ul a{
+    padding: 0 15px;
+}
+.bottom_header nav ul,
+.bottom_header .icons{
+    display: flex;
+}
+.bottom_header .icons a{
+    margin-left: 10px;
+    font-size: 1.3em;
+}
